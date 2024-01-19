@@ -97,3 +97,6 @@ After the correction has been made, the units of the state are as follows: â€˜xâ
 
 ### The DQN Agent
 The [DQN (Deep Q-Network) algorithm](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) was developed by DeepMind in 2015. It was able to solve a wide range of Atari games (some to superhuman level) by combining reinforcement learning and deep neural networks at scale. The algorithm was developed by enhancing a classic RL algorithm called Q-Learning with deep neural networks and a technique called experience replay.
+
+## Loss Function
+![Screenshot 2024-01-19 165706](https://github.com/FYT3RP4TIL/Deep-Q-Learning-OpenAI-Gymnasium-LunarLander-RL/assets/113416452/cba64cb3-d093-41ce-aa24-caba81409723)
