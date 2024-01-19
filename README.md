@@ -2,9 +2,8 @@
 ![1](https://github.com/FYT3RP4TIL/Deep-Q-Learning-OpenAI-Gymnasium-LunarLander-RL/assets/113416452/0b54cd19-5197-49f2-93da-80f5f205a088)
 ## Environment : Credits - Oleg Klimov
 
-
 | Action Space | ``` Discrete(4) ``` |
-| :---:   | :--- | 
+| :---   | :--- | 
 | Observation |  ``` Box([-1.5 -1.5 -5. -5. -3.1415927 -5. -0. -0. ], [1.5 1.5 5. 5. 3.1415927 5. 1. 1. ], (8,), float32) ``` | 
 | Import | ``` gymnasium.make("LunarLander-v2") ``` |
 
@@ -93,3 +92,8 @@ There are several unexpected bugs with the implementation of the environment.
 For the default values of VIEWPORT_W, VIEWPORT_H, SCALE, and FPS, the scale factors equal: ‘x’: 10 ‘y’: 6.666 ‘vx’: 5 ‘vy’: 7.5 ‘angle’: 1 ‘angular velocity’: 2.5
 
 After the correction has been made, the units of the state are as follows: ‘x’: (units) ‘y’: (units) ‘vx’: (units/second) ‘vy’: (units/second) ‘angle’: (radians) ‘angular velocity’: (radians/second)
+
+## Deep - Q - Learning :--
+
+### The DQN Agent
+The [DQN (Deep Q-Network) algorithm](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) was developed by DeepMind in 2015. It was able to solve a wide range of Atari games (some to superhuman level) by combining reinforcement learning and deep neural networks at scale. The algorithm was developed by enhancing a classic RL algorithm called Q-Learning with deep neural networks and a technique called experience replay.
