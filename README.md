@@ -123,7 +123,7 @@ Each value corresponds to the Q-value for a given action at a random state in an
 https://github.com/FYT3RP4TIL/Deep-Q-Learning-OpenAI-Gymnasium-LunarLander-RL/assets/113416452/e1d99825-412c-4596-bfb2-ca2b686fc317
 
 ## References
-
+* https://gymnasium.farama.org/index.html
 * https://www.tensorflow.org/agents/tutorials/0_intro_rl
 * https://medium.com/intro-to-artificial-intelligence/deep-q-network-dqn-applying-neural-network-as-a-functional-approximation-in-q-learning-6ffe3b0a9062
 * https://awjuliani.medium.com/simple-reinforcement-learning-with-tensorflow-part-4-deep-q-networks-and-beyond-8438a3e2b8df
