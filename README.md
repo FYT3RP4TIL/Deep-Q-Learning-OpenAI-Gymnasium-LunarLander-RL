@@ -117,3 +117,8 @@ From this problem has emerged an entire subfield within reinforcement learning t
 Each value corresponds to the Q-value for a given action at a random state in an environment. The height of the light blue bars correspond to the probability of choosing a given action. The dark blue bar corresponds to a chosen action.
 
 **Explanation** : A simple combination of the greedy and random approaches yields one of the most used exploration strategies: ϵ-greedy. In this approach the agent chooses what it believes to be the optimal action most of the time, but occasionally acts randomly.
+
+## Results : AI landing Itself
+
+https://github.com/FYT3RP4TIL/Deep-Q-Learning-OpenAI-Gymnasium-LunarLander-RL/assets/113416452/e1d99825-412c-4596-bfb2-ca2b686fc317
+
