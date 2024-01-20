@@ -107,4 +107,13 @@ The second major addition to make DQNs work is Experience Replay. The basic idea
 ![Role-of-experience-replay-in-deep-reinforcement-learning](https://github.com/FYT3RP4TIL/Deep-Q-Learning-OpenAI-Gymnasium-LunarLander-RL/assets/113416452/a83ceebb-7ab0-47c5-b191-d33f79e49f25)
 
 ### Separate Target Network
-The third major addition to the DQN that makes it unique is the utilization of a second network during the training procedure. This second network is used to generate the target-Q values that will be used to compute the loss for every action during training
+The third major addition to the DQN that makes it unique is the utilization of a second network during the training procedure. This second network is used to generate the target-Q values that will be used to compute the loss for every action during training. 
+
+### Action Selection Policy
+From this problem has emerged an entire subfield within reinforcement learning that has attempted to develop techniques for meaningfully balancing the exploration and exploitation tradeoff. Ideally, such an approach should encourage exploring an environment until the point that it has learned enough about it to make informed decisions about optimal actions. There are a number of frequently used approaches to encouraging exploration. Here we will use [Epsilon-Greedy](https://www.baeldung.com/cs/epsilon-greedy-q-learning).
+
+![egreedy](https://github.com/FYT3RP4TIL/Deep-Q-Learning-OpenAI-Gymnasium-LunarLander-RL/assets/113416452/2692d7ea-414a-4ca2-a9ad-a4facd4008aa)
+
+Each value corresponds to the Q-value for a given action at a random state in an environment. The height of the light blue bars correspond to the probability of choosing a given action. The dark blue bar corresponds to a chosen action.
+
+**Explanation** : A simple combination of the greedy and random approaches yields one of the most used exploration strategies: ϵ-greedy. In this approach the agent chooses what it believes to be the optimal action most of the time, but occasionally acts randomly.
